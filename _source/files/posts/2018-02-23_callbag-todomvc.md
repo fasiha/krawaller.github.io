@@ -14,7 +14,7 @@ In the previous post we [familiarised ourselves with Callbags](../callbags-intro
 
 ### Chopper view of the app
 
-You can find the repo for the app at [https://github.com/krawaller/callbag-todomvc](https://github.com/krawaller/callbag-todomvc), and the live app at [callbag-todomvc.netlify.com](callbag-todomvc.netlify.com) (although that isn't very sexy as it works exactly like all TodoMVC apps ever (which of course is the point)).
+You can find the repo for the app at [https://github.com/krawaller/callbag-todomvc](https://github.com/krawaller/callbag-todomvc), and the live app at [https://callbag-todomvc.netlify.com](https://callbag-todomvc.netlify.com) (although that isn't very sexy as it works exactly like all TodoMVC apps ever (which of course is the point)).
 
 The code is split into 4 parts; `makeActions`, `makeState`, `makeView` and `makeSideEffects`. They are chained together like so:
 
